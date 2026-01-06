@@ -17,4 +17,12 @@ hand_noglove, hand_wglove, head_nohelmet.
 - Dataset link: [  url: https://universe.roboflow.com/my-projects-bschq/ppe_v3-vkug4/dataset/1
 ]
 
-## Project Structure
+## How to Run
+1. Install dependencies:
+  pip install -r requirements.txt
+2. Run image inference:
+  python inference/image_inference.py
+3. Run video tracking:
+  python inference/video_tracking.py
+## Author
+Salma El-Sayed Abdelaleem
