@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['face_nomask', 'face_wmask', 'goggles', 'hand_noglove', 'hand_wglove', 'head_nohelmet', 'head_whelmet', 'person', 'vest']
+
+roboflow:
+  workspace: my-projects-bschq
+  project: ppe_v3-vkug4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/my-projects-bschq/ppe_v3-vkug4/dataset/1
